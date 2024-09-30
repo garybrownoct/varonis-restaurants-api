@@ -48,7 +48,17 @@ Provide your AWS Access Key ID, Secret Access Key, default region (e.g., `us-eas
 
 Install Terraform if you haven't already. Follow the [Terraform installation guide](https://learn.hashicorp.com/tutorials/terraform/install-cli).
 
-### 4. Provision AWS Resources with Terraform
+
+### 4. Zip Lambda Function for Deployment
+
+Navigate to the `lambda` directory and Zip the lambda function code:
+
+```bash
+cd lambda
+zip lambda_function.zip lambda_function.py
+```
+
+### 5. Provision AWS Resources with Terraform
 
 Navigate to the `terraform` directory:
 
@@ -85,7 +95,7 @@ Confirm the apply by typing `yes` when prompted.
 - Lambda function (code deployment handled separately)
 - API Gateway with an endpoint
 
-### 5. Configure the CI/CD Pipeline
+### 6. Configure the CI/CD Pipeline
 
 The CI/CD pipeline is set up using GitHub Actions.
 
