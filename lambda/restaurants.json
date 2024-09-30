@@ -1,0 +1,29 @@
+[
+    {
+        "restaurantId": "1",
+        "name": "Pizza Hut",
+        "address": "123 Main Street",
+        "style": "Italian",
+        "vegetarian": true,
+        "openHour": "09:00",
+        "closeHour": "22:00"
+    },
+    {
+        "restaurantId": "2",
+        "name": "Sushi Place",
+        "address": "456 Sushi Blvd",
+        "style": "Japanese",
+        "vegetarian": false,
+        "openHour": "11:00",
+        "closeHour": "21:00"
+    },
+    {
+        "restaurantId": "3",
+        "name": "Veggie Delight",
+        "address": "789 Green Way",
+        "style": "Vegetarian",
+        "vegetarian": true,
+        "openHour": "08:00",
+        "closeHour": "20:00"
+    }
+]
